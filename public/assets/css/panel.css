@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#user-info {
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.recientes h2, .plantillas h2 {
+    margin-bottom: 15px;
+}
+
+.recientes-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.reciente-item {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reciente-item:hover {
+    background-color: #f8f8f8;
+}
+
+.ver-todo {
+    display: block;
+    text-align: right;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.plantillas-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plantilla-item {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.icono {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.texto {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.descripcion {
+    color: #666;
+    font-size: 0.9em;
+}
